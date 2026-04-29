@@ -71,7 +71,7 @@ Each message includes:
 
 
 **CONTRIBUTORS**
--Asini31
--chan-dra-k
--Saumya-01git
+- Asini31
+- chan-dra-k
+- Saumya-01git
 
