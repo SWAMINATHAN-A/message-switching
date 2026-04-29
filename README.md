@@ -70,8 +70,8 @@ Each message includes:
 
 
 
-CONTRIBUTORS
-Asini31
-chan-dra-k
-Saumya-01git
+**CONTRIBUTORS**
+-Asini31
+-chan-dra-k
+-Saumya-01git
 
