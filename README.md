@@ -1,77 +1,105 @@
-# 📡 Message Switching System
+# 📡 Message Switching Simulator
 
-A lightweight **in-memory message broker** that enables communication between distributed clients using queues and RPC-style messaging.
+## 📌 Overview
 
----
-
-## 🚀 Overview
-
-This project implements a **store-and-forward messaging system** where a central server (message switch) routes messages between clients.
-
-It demonstrates key distributed systems concepts like:
-- Message Queues  
-- Producer–Consumer Model  
-- Remote Procedure Calls (RPC)  
-- Client–Server Architecture  
+The **Message Switching Simulator** is a web-based project that demonstrates how message switching works in computer networks. It allows users to input parameters such as message size, bandwidth, number of nodes, and delays to simulate data transmission and calculate network performance metrics.
 
 ---
 
-## 🧠 Features
-
-- 🔁 Named message queues  
-- 📬 Store-and-forward delivery  
-- 🔗 Correlation IDs for tracking messages  
-- 🔄 RPC-style request/response support  
-- ⚡ Lightweight in-memory design  
-- 🧩 Easily extensible  
-
-
-- **Server** → Maintains queues and routes messages  
-- **Clients** → Act as producers, consumers, or RPC servers  
+## LIVE DEMO (Working website)
+https://asini31.github.io/MESSAGE-SWITCHING/
 
 ---
 
-## 📦 Message Format
+## 🚀 Features
 
-Each message includes:
+* 📊 Calculate:
 
-- `correlation_id` → Unique ID for tracking  
-- `reply_to` → Queue for responses (used in RPC)  
-- `payload` → Actual data  
+  * Transmission Time
+  * Total Delay
+  * Bandwidth
+  * Propagation Delay
+  * Throughput
+  * Efficiency
+  * Round Trip Time (RTT)
 
----
+* 🎯 Dynamic Input Fields (based on selected outputs)
 
-## ⚙️ How It Works
+* 📈 Step-by-step calculations with formulas
 
-### Client Flow
+* 🌐 Visual representation of nodes and message flow
 
-1. Connect to server  
-2. Create or subscribe to a queue  
-3. Send messages  
-4. Receive messages  
-5. Acknowledge after processing  
+* 🌙 Dark Mode support
 
----
-
-### RPC Flow
-
-**Client:**
-- Creates a temporary reply queue  
-- Sends request  
-- Waits for response  
-
-**Server:**
-- Listens on queue  
-- Processes request  
-- Sends response back  
-- Acknowledges message  
+* 📥 Download simulation report
 
 ---
 
+## 🧠 Concept Used
+
+Message Switching is a technique where the **entire message is transmitted from source to destination via intermediate nodes**. Each node:
+
+1. Receives the full message
+2. Stores it temporarily
+3. Forwards it to the next node
+
+This is also known as **Store-and-Forward Switching**.
+
+---
+
+## 🛠️ Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download or clone the repository
+2. Open the file:
+
+   ```bash
+   index.html
+   ```
+3. Run it in any web browser
+
+---
+
+## 🌍 Deployment
+
+The project can be deployed using:
+
+* GitHub Pages
+* Netlify
+* Vercel
+
+---
 
 
-**CONTRIBUTORS**
-- Asini31
-- chan-dra-k
-- Saumya-01git
 
+## 👨‍💻 Developed By
+
+* Kengua Asini (24BYB1132)
+* Saumya (24BYB1130)
+* Chandra K (24BYB1171)
+
+---
+
+## 🎓 Guided By
+
+Dr. Swaminathan Annadurai
+
+---
+
+## 📚 References
+
+* https://www.tutorialspoint.com/data_communication_computer_network/message_switching.htm
+* https://en.wikipedia.org/wiki/Message_switching
+
+---
+
+## 📄 License
+
+This project is for academic and educational purposes only.
