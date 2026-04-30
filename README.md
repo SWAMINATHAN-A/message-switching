@@ -61,7 +61,7 @@ This is also known as **Store-and-Forward Switching**.
 2. Open the file:
 
    ```bash
-   index.html
+   message_passing.html
    ```
 3. Run it in any web browser
 
